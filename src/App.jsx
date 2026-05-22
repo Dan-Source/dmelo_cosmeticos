@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -8,15 +7,13 @@ import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 
 function App() {
-  const [activeCategory, setActiveCategory] = useState("Todos");
-
   return (
     <div className="app">
       <Header />
       <main>
         <Hero />
         <Contact />
-        <Catalog activeCategory={activeCategory} setActiveCategory={setActiveCategory} />
+        <Catalog />
       </main>
       <Footer />
       <WhatsAppFloat />

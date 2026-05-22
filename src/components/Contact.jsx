@@ -1,12 +1,8 @@
-import { WHATSAPP_URL } from "../data/products";
-
-const INSTAGRAM_URL = "https://instagram.com/dmelocosmeticos";
-const MAPS_URL = "https://maps.google.com/?q=Rua+Exemplo+123+São+Paulo+SP";
+import { WHATSAPP_URL, INSTAGRAM_URL, MAPS_URL } from "../data/products";
 
 export default function Contact() {
   return (
     <section className="contact">
-      <h2 className="contact-title">Fale Conosco</h2>
       <div className="contact-cards">
         <a
           href={MAPS_URL}
@@ -17,7 +13,7 @@ export default function Contact() {
           <span className="contact-icon">📍</span>
           <div>
             <strong>Endereço</strong>
-            <p>Rua Exemplo, 123 - São Paulo, SP</p>
+            <p><a href={MAPS_URL} target="_blank" rel="noopener noreferrer">Rua Desembargador Amaral 1359, Corrente, Piauí</a></p>
           </div>
         </a>
 
@@ -30,7 +26,7 @@ export default function Contact() {
           <span className="contact-icon">📸</span>
           <div>
             <strong>Instagram</strong>
-            <p>@dmelocosmeticos</p>
+            <p><a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">@d_melocosmeticos</a></p>
           </div>
         </a>
 
@@ -43,7 +39,7 @@ export default function Contact() {
           <span className="contact-icon">💬</span>
           <div>
             <strong>WhatsApp</strong>
-            <p>(89) 99999-1715</p>
+            <p><a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">(89) 99999-1715</a></p>
           </div>
         </a>
       </div>

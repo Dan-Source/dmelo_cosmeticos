@@ -3,7 +3,6 @@ const INSTAGRAM_URL = "https://instagram.com/dmelocosmeticos";
 export default function Footer() {
   return (
     <footer className="footer">
-      <p className="footer-brand">🌸 D.Melo Cosméticos</p>
       <a
         href={INSTAGRAM_URL}
         target="_blank"
@@ -12,7 +11,7 @@ export default function Footer() {
       >
         @dmelocosmeticos
       </a>
-      <p className="footer-credit">Desenvolvido com ♥</p>
+      <p className="footer-credit">Desenvolvido com ♥ por Daniel Luis</p>
     </footer>
   );
 }

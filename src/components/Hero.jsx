@@ -8,20 +8,13 @@ export default function Hero() {
         <img src={heroBanner} alt="D.Melo Cosméticos banner" />
       </div>
       <div className="hero-content">
-        <p className="hero-eyebrow">✨ Beleza que transforma</p>
-        <h1 className="hero-title">
-          Sua rotina de beleza começa aqui
-        </h1>
-        <p className="hero-tagline">
-          Produtos de qualidade selecionados com amor para realçar sua beleza natural.
-        </p>
         <a
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="hero-cta"
         >
-          💬 Fale conosco no WhatsApp
+          💬 Chamar no WhatsApp
         </a>
       </div>
     </section>

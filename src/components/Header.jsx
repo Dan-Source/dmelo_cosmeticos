@@ -1,7 +1,7 @@
 import logo from "../assets/logo-dmelo-oficial.jpeg";
-import { WHATSAPP_URL } from "../data/products";
+import { WHATSAPP_URL, INSTAGRAM_URL } from "../data/products";
 
-const INSTAGRAM_URL = "https://instagram.com/dmelocosmeticos";
+
 
 export default function Header() {
   return (
